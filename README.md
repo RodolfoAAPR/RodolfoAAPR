@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Rodolfo Alves
-- 👀 I'm interested in finding my first experience!
-- 🌱 I’m currently learning .NET
+- 👀 I'm interested in improving my Java and Typescript skills!
+- 🌱 I’m currently learning Javaa and JS/TS
 - 💞️ I’m looking to collaborate on a great company!
 - 📫 How to reach me in www.linkedin.com/in/rodolfoaapr
 - 😄 Pronouns: he/him
