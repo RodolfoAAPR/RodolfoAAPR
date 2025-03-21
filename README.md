@@ -1,9 +1,8 @@
 - 👋 Hi, I’m Rodolfo Alves
 - 👀 I'm interested in improving my Java and Typescript skills!
-- 🌱 I’m currently learning Java and JS/TS
+- 🌱 I’m currently learning Java and Angular
 - 💞️ I’m looking to collaborate on a great company!
 - 📫 How to reach me in www.linkedin.com/in/rodolfoaapr
-- 😄 Pronouns: he/him
 - ⚡ Fun fact: I had two traumatic brain injuries when I was a child!
 
 <!---
