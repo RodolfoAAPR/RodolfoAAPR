@@ -47,7 +47,7 @@ flowchart LR
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,tailwind,supabase,postgres,gcp,githubactions,docker,java&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Creact%2Cnextjs%2Cnodejs%2Ctailwind%2Csupabase%2Cpostgres%2Cgcp%2Cgithubactions%2Cdocker%2Cjava&theme=dark" />
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,tailwind,supabase,postgres,gcp,githubactions,docker,java&theme=light" alt="TypeScript, React, Next.js, Node.js, Tailwind, Supabase, PostgreSQL, Google Cloud, GitHub Actions, Docker, Java" />
 </picture>
 
