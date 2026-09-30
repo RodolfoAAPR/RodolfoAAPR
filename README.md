@@ -1,10 +1,12 @@
 <a href="https://github.com/RodolfoAAPR">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=58A6FF&vCenter=true&width=560&lines=Ol%C3%A1%2C+eu+sou+o+Rodolfo+%F0%9F%91%8B;AI+Master+%C2%B7+Founder;Full-stack+%C2%B7+TypeScript+%C2%B7+Java;Construindo+produto+com+IA;Balne%C3%A1rio+Cambori%C3%BA-SC+%2F+Maring%C3%A1-PR" alt="Olá, eu sou o Rodolfo · AI Master · Founder" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=58A6FF&vCenter=true&width=560&lines=Ol%C3%A1%2C+eu+sou+o+Rodolfo+%F0%9F%91%8B;AI+Master+%C2%B7+Founder+%C2%B7+Tech+Lead;Full-stack+%C2%B7+TypeScript+%C2%B7+Java;Construindo+produto+com+IA;Balne%C3%A1rio+Cambori%C3%BA-SC+%2F+Maring%C3%A1-PR" alt="Olá, eu sou o Rodolfo · AI Master · Founder · Tech Lead" />
 </a>
+
+<img src="assets/banner-sobre.svg" width="100%" alt="Sobre mim: Rodolfo Alves · AI Master · Founder · Tech Lead · Balneário Camboriú-SC / Maringá-PR" />
 
 ```ts
 const rodolfo = {
-  cargo: ["AI Master", "Founder"],
+  cargo: ["AI Master", "Founder", "Tech Lead"],
   local: "Balneário Camboriú, SC / Maringá, PR",
   stack: {
     web: ["Next.js", "React", "TypeScript"],
@@ -17,9 +19,7 @@ const rodolfo = {
 } as const;
 ```
 
-### Construindo agora
-
-**Marketplace imobiliário** · web + mobile + API
+<img src="assets/banner-projeto.svg" width="100%" alt="Construindo agora: marketplace imobiliário · web + mobile + API" />
 
 - Monorepo Turborepo + pnpm
 - API type-safe com Hono + Zod

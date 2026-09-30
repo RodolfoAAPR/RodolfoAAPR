@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="150" viewBox="0 0 840 150" role="img" aria-label="Rodolfo Alves · AI Master · Founder · Tech Lead">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117" />
+      <stop offset="1" stop-color="#161b2e" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#58a6ff" />
+      <stop offset="1" stop-color="#a371f7" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="halo" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#a371f7" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#a371f7" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#8b949e" fill-opacity="0.18" />
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0" />
+      <stop offset="0.6" stop-color="#fff" />
+    </linearGradient>
+    <mask id="dotsMask"><rect x="480" width="360" height="150" fill="url(#fade)" /></mask>
+    <clipPath id="card"><rect width="840" height="150" rx="16" /></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    .sweep { animation: sweep 4.5s ease-in-out infinite; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes sweep { 0% { transform: translateX(-320px); } 100% { transform: translateX(840px); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.9; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="840" height="150" fill="url(#bg)" />
+    <rect width="840" height="150" fill="url(#halo)" />
+    <rect x="480" width="360" height="150" fill="url(#dots)" mask="url(#dotsMask)" />
+    <rect class="sweep" y="147" width="320" height="3" fill="url(#glow)" />
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="149" rx="15.5" fill="none" stroke="#30363d" />
+
+  <text x="40" y="46" class="mono" font-size="14" fill="#58a6ff">// sobre mim<tspan class="cursor" fill="#58a6ff"> _</tspan></text>
+  <text x="40" y="92" class="sans" font-size="36" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">Rodolfo Alves</text>
+  <text x="40" y="122" class="sans" font-size="16" fill="#8b949e">AI Master  ·  Founder  ·  Tech Lead  ·  Balneário Camboriú-SC / Maringá-PR</text>
+
+  <g transform="translate(730 75)" class="mono" font-size="44" font-weight="600" text-anchor="middle">
+    <text class="pulse" fill="#a371f7" y="15">&lt;/&gt;</text>
+  </g>
+</svg>
